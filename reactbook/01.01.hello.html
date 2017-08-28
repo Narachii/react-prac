@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello React</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="app">
+			<!---アプリケーション描画場所 -->
+		</div>
+		<script src="react.js"></script>
+		<script src="react-dom.js"></script>
+		<script>
+		ReactDOM.render(
+			React.DOM.h1(
+			{
+				style: {
+					background: "black",
+					color:"white",
+					fontFamily: "Verdana",
+				}
+			},
+			React.DOM.span({classNmae: "pretty"},
+				React.DOM.em(null,"Hell"),
+					"o"
+				),
+				"world!"
+				),
+			document.getElementById("app")
+			);
+		</script>
+	</body>
+</html>
