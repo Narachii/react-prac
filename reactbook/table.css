@@ -10,6 +10,10 @@ th{
 	padding-right: 10px;
 }
 
+.toolbar{
+    margin-bottom: 10px;
+}
+
 button{
 	    position: relative;
     display: inline-block;
